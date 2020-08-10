@@ -1,4 +1,5 @@
 class Triangle
+  attr_accessor :kind
   attr_reader :s1, :s2, :s3
   
   def initialize(s1, s2, s3)
@@ -22,7 +23,6 @@ class Triangle
       
     else
       self.kind == :scalene
-      
     end
   end
   
